@@ -31,7 +31,7 @@ namespace DesafioProjetoHospedagem.Models
         {
             Suite = suite;
         }
-
+        
         public int ObterQuantidadeHospedes()
         {
             // TODO: Retorna a quantidade de hóspedes (propriedade Hospedes)
@@ -50,7 +50,6 @@ namespace DesafioProjetoHospedagem.Models
             {
                 valor -= valor/10;
             }
-
             return valor;
         }
     }
